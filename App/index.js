@@ -101,6 +101,11 @@ const RootStackScreen = ({ userToken }) => (
   </RootStack.Navigator>
 );
 
+class App extends React.Component{
+  constructor(props){
+    super(props)
+  }
+}
 export default () => {
   const [isLoading, setIsLoading] = React.useState(true);
   const [userToken, setUserToken] = React.useState(null);
@@ -140,3 +145,5 @@ export default () => {
     </AuthContext.Provider>
   );
 };
+
+export default App;
