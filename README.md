@@ -3,6 +3,7 @@ Hack For Good 2021 Team SweeBoHiar
 
 An elevator pitch app, made with react-native. 
 
+![Start screen](https://github.com/joshenx/elevate/start.png)
 
 ## How to install
 1. Install react-native from https://reactnative.dev/
